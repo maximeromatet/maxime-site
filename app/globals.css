@@ -27,3 +27,6 @@ body {
 :root {
   --accent: #2563eb;
 }
+html {
+  scroll-behavior: smooth;
+}
