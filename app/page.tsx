@@ -62,11 +62,9 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-3">
 
             <div className="border border-neutral-200 p-8 hover:border-blue-600 transition">
-              <h3 className="text-lg font-medium mb-4">iLock</h3>
+              <h3 className="text-lg font-medium mb-4">iLock.</h3>
               <p className="text-sm text-neutral-600 leading-relaxed">
-                Designed and prototyped an anti-theft phone case.
-                Partnered with a 70-year-old French manufacturer and secured
-                B2B distribution through direct outreach.
+                Designed and prototyped an anti-theft phone case. Secured B2B distribution with Groupe Full Ace (€60M turnover). When email outreach went unanswered, took the train to JustInCase headquarters to initiate a direct conversation and secured a partnership discussion.
               </p>
             </div>
 
