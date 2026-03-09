@@ -22,16 +22,10 @@ export default function RootLayout({
             </Link>
 
             <nav className="flex items-center gap-6 text-sm text-neutral-600">
-              <Link href="/" className="hover:text-black transition">
-                Home
-              </Link>
-              <Link href="/projects" className="hover:text-black transition">
-                Projects
-              </Link>
-              <Link href="/contact" className="hover:text-black transition">
-                Contact
-              </Link>
-            </nav>
+  <Link href="/" className="hover:text-black transition">
+    Home
+  </Link>
+</nav>
           </div>
         </header>
 
