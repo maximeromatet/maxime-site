@@ -12,7 +12,7 @@ const nav = [
   { label: "Entrepreneurship", href: "#entrepreneurship" },
   { label: "Education", href: "#education" },
   { label: "Experience", href: "#experience" },
-  { label: "Activities", href: "#extracurricular activities" },
+  { label: "Activities", href: "#extracurricular-activities" },
   { label: "Skills", href: "#skills" },
 ];
 
