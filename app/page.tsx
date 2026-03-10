@@ -269,7 +269,10 @@ export default function Home() {
 </section>
 
 {/* EXTRACURRICULAR ACTIVITIES */}
-<section className="mb-20 border-t border-[var(--border)] pt-12">
+<section
+  id="extracurricular-activities"
+  className="mb-20 border-t border-[var(--border)] pt-12"
+>
   <SectionTitle>Extracurricular Activities</SectionTitle>
 
   <div className="space-y-8">
