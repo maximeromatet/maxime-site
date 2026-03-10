@@ -204,85 +204,69 @@ export default function Home() {
           </div>
         </section>
 
-        {/* PROFESSIONAL EXPERIENCE */}
-        <section
-          id="experience"
-          className="mb-20 border-t border-[var(--border)] pt-12"
-        >
-          <SectionTitle>Professional Experience</SectionTitle>
+{/* PROFESSIONAL EXPERIENCE */}
+<section
+  id="experience"
+  className="mb-20 border-t border-[var(--border)] pt-12"
+>
+  <SectionTitle>Professional Experience</SectionTitle>
 
-          <div className="space-y-8">
-            <Card>
-              <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
-                <h3 className="text-lg font-medium">Topcast — Intern</h3>
-                <span className="text-xs text-[var(--muted)]">
-                  Paris · Summer 2025
-                </span>
-              </div>
-              <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
-                <li>Produced 20+ podcasts end-to-end, reaching 100k+ YouTube views.</li>
-                <li>
-                  Contributed to business strategy discussions and business plan work.
-                </li>
-              </ul>
-            </Card>
+  <div className="space-y-8">
+    <Card>
+      <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
+        <h3 className="text-lg font-medium">Topcast — Intern</h3>
+        <span className="text-xs text-[var(--muted)]">Paris · Summer 2025</span>
+      </div>
+      <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
+        <li>First intern at a podcast development startup founded by 2 serial entrepreneurs.</li>
+        <li>Owned end-to-end production for 20+ podcasts (scripting to video editing).</li>
+        <li>Produced branded content for Randstad and Tengo, reaching 100k+ YouTube views.</li>
+        <li>Immersed in daily operations, contributing to business strategy discussions and business plan work.</li>
+      </ul>
+    </Card>
 
-            <Card>
-              <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
-                <h3 className="text-lg font-medium">
-                  Embrace — Freelance Brand Ambassador
-                </h3>
-                <span className="text-xs text-[var(--muted)]">
-                  Paris · June 2025
-                </span>
-              </div>
-              <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
-                <li>
-                  Promoted beverage brand through in-store demonstrations and tastings
-                  at Franprix and Monoprix.
-                </li>
-                <li>Averaged 50 new Instagram followers and 30 cans sold per hour.</li>
-              </ul>
-            </Card>
+    <Card>
+      <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
+        <h3 className="text-lg font-medium">Embrace — Freelance Brand Ambassador</h3>
+        <span className="text-xs text-[var(--muted)]">Paris · June 2025</span>
+      </div>
+      <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
+        <li>
+          Promoted beverage brand through in-store demonstrations and tastings at Franprix and Monoprix.
+        </li>
+        <li>Averaged 50 new Instagram followers and 30 cans sold per hour.</li>
+        <li>Engaged customers, answered product questions, and optimized pitch based on foot traffic.</li>
+      </ul>
+    </Card>
 
-            <Card>
-              <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
-                <h3 className="text-lg font-medium">Les Mouettes Vertes — Intern</h3>
-                <span className="text-xs text-[var(--muted)]">
-                  Paris · Summer 2024
-                </span>
-              </div>
-              <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
-                <li>
-                  Participated in trade fair operations for an organic textile
-                  accessories brand.
-                </li>
-                <li>
-                  Contributed to website rebuild, driving hundreds of new daily visitors
-                  post-launch.
-                </li>
-              </ul>
-            </Card>
+    <Card>
+      <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
+        <h3 className="text-lg font-medium">Les Mouettes Vertes — Intern</h3>
+        <span className="text-xs text-[var(--muted)]">Paris · Summer 2024</span>
+      </div>
+      <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
+        <li>Participated in trade fair operations for an organic textile accessories brand.</li>
+        <li>Supported booth setup, customer conversations, and lead capture during events.</li>
+        <li>Contributed to a website rebuild, driving hundreds of new daily visitors post-launch.</li>
+        <li>Helped refresh product and brand content to improve clarity and conversion.</li>
+      </ul>
+    </Card>
 
-            <Card>
-              <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
-                <h3 className="text-lg font-medium">
-                  Ragazzi da Peppone — Team Member
-                </h3>
-                <span className="text-xs text-[var(--muted)]">
-                  Bordeaux · Summer 2023
-                </span>
-              </div>
-              <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
-                <li>
-                  Supported kitchen operations (prep, plating, service coordination)
-                  in a fast-paced Italian restaurant.
-                </li>
-                <li>Managed 8 tables per service, exceeding manager’s target of 5.</li>
-              </ul>
-            </Card>
-          </div>
-        </section>
+    <Card>
+      <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
+        <h3 className="text-lg font-medium">Ragazzi da Peppone — Team Member</h3>
+        <span className="text-xs text-[var(--muted)]">Bordeaux · Summer 2023</span>
+      </div>
+      <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
+        <li>
+          Supported kitchen operations (prep, plating, service coordination) in a fast-paced Italian restaurant.
+        </li>
+        <li>Managed 8 tables per service, exceeding manager’s target of 5.</li>
+        <li>Handled peak-time prioritization and communication across kitchen and floor to keep service smooth.</li>
+      </ul>
+    </Card>
+  </div>
+</section>
 
         {/* EXTRACURRICULAR ACTIVITIES */}
         <section className="mb-20 border-t border-[var(--border)] pt-12">
