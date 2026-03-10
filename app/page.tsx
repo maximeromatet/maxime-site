@@ -268,35 +268,60 @@ export default function Home() {
   </div>
 </section>
 
-        {/* EXTRACURRICULAR ACTIVITIES */}
-        <section className="mb-20 border-t border-[var(--border)] pt-12">
-          <SectionTitle>Extracurricular Activities</SectionTitle>
+{/* EXTRACURRICULAR ACTIVITIES */}
+<section className="mb-20 border-t border-[var(--border)] pt-12">
+  <SectionTitle>Extracurricular Activities</SectionTitle>
 
-          <div className="space-y-8 text-sm">
-            <Card>
-              <div className="font-semibold text-[var(--foreground)] mb-2">
-                La Maraude du Cœur & Pane Quotidiano
-              </div>
-              <div className="text-[var(--muted)]">Volunteer · 2020–present</div>
-            </Card>
+  <div className="space-y-8">
+    <Card>
+      <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
+        <h3 className="text-lg font-medium">
+          La Maraude du Cœur & Pane Quotidiano — Volunteer
+        </h3>
+        <span className="text-xs text-[var(--muted)]">
+          2020–present
+        </span>
+      </div>
+      <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
+        <li>Participate in food distribution initiatives supporting people in precarious situations.</li>
+        <li>Assist with meal preparation, packaging, and on-site distribution.</li>
+        <li>Engage directly with beneficiaries, contributing to a respectful and supportive environment.</li>
+      </ul>
+    </Card>
 
-            <Card>
-              <div className="font-semibold text-[var(--foreground)] mb-2">
-                Entrepreneurship Club (Bocconi)
-              </div>
-              <div className="text-[var(--muted)]">Events team · 2023–present</div>
-            </Card>
+    <Card>
+      <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
+        <h3 className="text-lg font-medium">
+          Entrepreneurship Club (Bocconi) — Events Team
+        </h3>
+        <span className="text-xs text-[var(--muted)]">
+          2023–present
+        </span>
+      </div>
+      <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
+        <li>Organize entrepreneurship-focused events, panels, and networking sessions on campus.</li>
+        <li>Coordinate with founders, investors, and student speakers for event participation.</li>
+        <li>Support logistics, communication, and promotion to maximize turnout and engagement.</li>
+      </ul>
+    </Card>
 
-            <Card>
-              <div className="font-semibold text-[var(--foreground)] mb-2">
-                Bocconi French Society & SpiMilano
-              </div>
-              <div className="text-[var(--muted)]">
-                Corporate team · 2023–present
-              </div>
-            </Card>
-          </div>
-        </section>
+    <Card>
+      <div className="flex flex-wrap items-baseline justify-between gap-6 mb-3">
+        <h3 className="text-lg font-medium">
+          Bocconi French Society & SpiMilano — Corporate Team
+        </h3>
+        <span className="text-xs text-[var(--muted)]">
+          2023–present
+        </span>
+      </div>
+      <ul className="text-sm text-[var(--muted)] space-y-2 leading-relaxed list-disc pl-5">
+        <li>Develop partnerships with companies and alumni for sponsored events.</li>
+        <li>Lead outreach efforts and maintain relationships with corporate contacts.</li>
+        <li>Contribute to event strategy aligning student interests with partner visibility.</li>
+      </ul>
+    </Card>
+  </div>
+</section>
 
         {/* SKILLS + CONNECT */}
         <section
@@ -372,7 +397,7 @@ export default function Home() {
               </div>
 
               <div className="mt-8 text-xs text-[var(--muted)]">
-                maximeromatet@gmail.com · +33 7 69 18 70 16 (WhatsApp)
+                maximeromatet@gmail.com · +33 7 69 18 70 16
               </div>
             </div>
           </section>
